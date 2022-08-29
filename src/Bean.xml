@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<bean id = "triangleList" class = "com.minhthanh.triangleList">
+	 <property name = "DiemA" ref = "Diem0"/>
+	 <property name = "DiemB" ref = "Diem1"/>
+	 <property name = "DiemC" ref = "Diem2"/>
+
+</bean>
+
+<bean id = "point0" class = "com.minhthanh.point">
+	 <property name = "x" value="0"/>
+	 <property name = "y" value="1"/>
+</bean>
